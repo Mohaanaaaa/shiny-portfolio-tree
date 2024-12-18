@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 768px) {
+  .min-h-screen bg-blue-100 p-4 {
+    padding: 16px; /* Adjust padding for smaller screens */
+  }
+}
+
+@layer base {
+  body {
+    image-rendering: pixelated;
+    font-family: 'Press Start 2P', system-ui;
+  }
+}
+
+@layer components {
+  .pixel-border {
+    @apply relative;
+    box-shadow: 
+      -4px 0 0 0 theme(colors.slate.800),
+      4px 0 0 0 theme(colors.slate.800),
+      0 -4px 0 0 theme(colors.slate.800),
+      0 4px 0 0 theme(colors.slate.800);
+  }
+
+  .pixel-button {
+    @apply px-6 py-3 relative transition-all duration-100 text-white;
+    image-rendering: pixelated;
+    text-shadow: 2px 2px theme(colors.slate.800);
+    box-shadow: 
+      inset -4px -4px 0 0 rgba(0, 0, 0, 0.3),
+      4px 4px 0 0 theme(colors.slate.800);
+  }
+
+  .pixel-button:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 
+      inset -4px -4px 0 0 rgba(0, 0, 0, 0.3),
+      2px 2px 0 0 theme(colors.slate.800);
+  }
+
+  .pixel-progress {
+    @apply h-6 relative overflow-hidden pixel-border bg-slate-200;
+  }
+
+  .pixel-progress-bar {
+    @apply h-full transition-all duration-300 ease-out;
+    background: repeating-linear-gradient(
+      45deg,
+      theme(colors.blue.500),
+      theme(colors.blue.500) 10px,
+      theme(colors.blue.600) 10px,
+      theme(colors.blue.600) 20px
+    );
+  }
+}
+
+.pixelated {
+  image-rendering: pixelated;
+}
