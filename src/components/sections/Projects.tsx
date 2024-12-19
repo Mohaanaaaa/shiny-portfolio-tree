@@ -31,8 +31,8 @@ export function Projects() {
       description: "8-bit style weather forecasting application",
       image: "https://images.unsplash.com/photo-1601134467661-3d775b999c8b?w=300&h=200&fit=crop",
       tags: ["React", "API", "CSS"],
-      demoUrl: "#",
-      githubUrl: "#"
+      demoUrl: "https://weather-vigilant.vercel.app",
+      githubUrl: "https://github.com/Mohaanaaaa/Weather-vigilant-pancake"
     },
     {
       id: 3,
