@@ -36,12 +36,12 @@ export function Projects() {
     },
     {
       id: 3,
-      title: "Retro Chat",
-      description: "Real-time chat app with pixel art UI",
+      title: "terminal portfolio",
+      description: "Terminal based portfolio with linux style",
       image: "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?w=300&h=200&fit=crop",
-      tags: ["WebSocket", "React", "Node"],
+      tags: ["React", "CSS"],
       demoUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/Mohaanaaaa/fictional-terminal-portfolio"
     },
     {
       id: 4,
