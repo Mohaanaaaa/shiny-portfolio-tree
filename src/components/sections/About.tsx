@@ -1,6 +1,7 @@
 //import React from 'react';
 import { User } from 'lucide-react';
 import twistedArrow from './twisted-arrow.gif';
+//import Resume from './resume.pdf'
 import { PixelatedContainer } from '../PixelatedContainer';
 
 
@@ -32,7 +33,7 @@ export function About() {
       
       <div>
           <center><a
-          href="/resume" // Link to your resume
+          href='/resume' // Link to your resume
           className="bg-transparent border-2 border-black text-black px-6 py-3 rounded-md shadow-lg transition-transform transform hover:scale-105"
           >
           Download CV
