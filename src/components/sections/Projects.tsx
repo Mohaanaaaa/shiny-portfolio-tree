@@ -56,7 +56,7 @@ export function Projects() {
       id: 5,
       title: "Bengaluru roads",
       description: "Helpfull platform to know conditions road/traffic ",
-      image: "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?w=300&h=200&fit=crop",
+      image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=300&h=200&fit=crop",
       tags: ["React", "CSS","MySQL"],
       demoUrl: "#",
       githubUrl: ""
