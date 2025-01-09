@@ -51,7 +51,16 @@ export function Projects() {
       tags: ["Canvas", "React", "Redux"],
       demoUrl: "#",
       githubUrl: "#"
-    }
+    },
+    {
+      id: 5,
+      title: "Bengaluru roads",
+      description: "helpfull platform regrading road/traffic ",
+      image: "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?w=300&h=200&fit=crop",
+      tags: ["React", "CSS","MySQL"],
+      demoUrl: "#",
+      githubUrl: ""
+    },
   ];
 
   return (
