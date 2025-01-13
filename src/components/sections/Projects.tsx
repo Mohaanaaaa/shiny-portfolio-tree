@@ -44,15 +44,6 @@ export function Projects() {
       githubUrl: "https://github.com/Mohaanaaaa/fictional-terminal-portfolio"
     },
     {
-      id: 4,
-      title: "Pixel Editor",
-      description: "Online pixel art creation tool",
-      image: "https://images.unsplash.com/photo-1563207153-f403bf289096?w=300&h=200&fit=crop",
-      tags: ["Canvas", "React", "Redux"],
-      demoUrl: "#",
-      githubUrl: "#"
-    },
-    {
       id: 5,
       title: "Bengaluru roads",
       description: "Helpfull platform to know conditions road/traffic ",
